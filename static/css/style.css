@@ -263,12 +263,13 @@ textarea {
     margin-bottom: 30px;
     padding-right: 16px;
 	
-	position: relative;
-	overflow: auto;
+	overflow-x: hidden;
+    overflow-y: auto;
 	
 }
 .jj-list::-webkit-scrollbar {
-    width: 0;}
+      display: none;
+}
 .jj-list:nth-of-type(3n) {
     padding-right: 0;
 }
